@@ -1,0 +1,47 @@
+
+.main{
+	
+	margin-left:200px;
+	margin-top: 20%;
+}
+
+#firstcircle,#secondcircle,#thirdcircle,#forthcircle,#fifthcircle,#sixthcircle{
+width: 30px;
+height: 30px;
+border-radius: 100%;
+animation :moving 2s infinite;
+margin-left:15px;
+display: inline-block;
+}
+#firstcircle{
+	background-color: #43A047;
+}
+#secondcircle{
+background-color: #FFB300;
+animation-delay: 0.5s;
+}
+#thirdcircle{
+background-color:#0D47A1;
+animation-delay: 0.7s;
+}
+#forthcircle{
+background-color:#F50057;
+animation-delay:0.9s
+}
+#fifthcircle{
+background-color:#673AB7;
+animation-delay: 1s;
+}
+#sixthcircle{
+background-color: #FFC107;
+animation-delay: 1.2s;
+}
+@keyframes moving {
+	0%{transform: translateY(0);}
+	25%{transform: translateY(-400px);}
+	50%{transform: translateY(0);}
+	75%{transform: translateY(-300px);}
+	100%{transform: translateY(0);}
+}
+
+
